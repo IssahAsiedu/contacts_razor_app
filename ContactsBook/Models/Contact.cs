@@ -15,6 +15,7 @@ namespace ContactsBook.Models
         public string? Email { get; set; }
 
         [Required]
+        [Display(Name = "Date Created")]
         public DateTimeOffset DateAdded { get; set; }
     }
 }
